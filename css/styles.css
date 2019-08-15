@@ -1,0 +1,18 @@
+.jumbotron {
+    background-color: blue;
+}
+
+.footer {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: inline-flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-weight: 700;
+}
