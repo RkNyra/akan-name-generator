@@ -20,7 +20,7 @@ h2 {
 
 input {
     display: block;
-    width: 50%;
+    width: 70%;
     height: 37px;
     border-width: 0 0 2px 0;
     border-color: #333;
@@ -41,7 +41,7 @@ label {
 }
 
 .selectbox select {
-    width: 50%;
+    width: 70%;
     border-width: 2px;
     border-radius: 7px;
     border-color: blue;
@@ -52,7 +52,7 @@ label {
 }
 
 input[type=submit] {
-    width: 50%;
+    width: 70%;
     border-width: 2px;
     border-radius: 7px;
     border-color: blue;
