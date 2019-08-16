@@ -35,7 +35,8 @@
             <!-- <input type="radio" name="gender" value="male"> Male<br> -->
             <!-- </form> -->
 
-            <form name="dataCollection" onsubmit="return calculateAkanName()">
+            <!-- <form name="dataCollection" onsubmit="return calculateAkanName()"> -->
+            <form onsubmit="generateAkanName()">
                 <label for="gender">Gender</label>
                 <div class="selectbox">
                     <select id="gender" required>
@@ -43,13 +44,13 @@
                       <option value="">Select Gender</option>
                       <option value="female">Female</option>
                       <option value="male">Male</option>
+                      <!-- <option value="other">Other</option> -->
                     </select>
                 </div>
                 <label for="Date">Date of Birth</label><br>
                 <input id="date" type="Date" placeholder="D.O.B" required><br>
                 <input type="submit" value="Submit" id="btnSubmit">
             </form>
-            <!-- insert form here...collect data i.e. gender and birthdate details -->
         </div>
     </div>
     <div>
