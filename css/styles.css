@@ -1,5 +1,65 @@
 .jumbotron {
-    background-color: blue;
+    background-color: rgb(110, 110, 247);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 44px;
+    font-weight: 700;
+    color: black;
+    font-style: italic;
+}
+
+h2 {
+    color: blue;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.form {
+    width: 100%;
+    margin-left: 20px;
+}
+
+input {
+    display: block;
+    width: 50%;
+    height: 37px;
+    border-width: 0 0 2px 0;
+    border-color: #333;
+}
+
+input:focus {
+    outline: none;
+}
+
+label {
+    color: darkblue;
+    font-size: 20px;
+}
+
+ ::placeholder {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.selectbox select {
+    width: 50%;
+    border-width: 2px;
+    border-radius: 7px;
+    border-color: blue;
+    background-color: rgb(110, 110, 247);
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+input[type=submit] {
+    width: 50%;
+    border-width: 2px;
+    border-radius: 7px;
+    border-color: blue;
+    background-color: rgb(110, 110, 247);
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .footer {
