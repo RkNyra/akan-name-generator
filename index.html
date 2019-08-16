@@ -13,18 +13,41 @@
 <body>
     <script src="js/script.js"></script>
 
-    <div class="container-fluid jumbotron">
+    <div class="container-fluid jumbotron text-center">
         <p>Find Out Your Akan Name!</p>
     </div>
 
     <div class="row">
         <div class="col-md-6">
-            <h2>Akan Name Generator</h2>
-            <p>Akan Names are derived from Ghanaian culture. Frequently in Ghana, children are given their first name as a "day-name" which corresponds to the day in the week they were born.</p>
-            <p>This application enables you to find out the day of the week you were born and further suggests to you what your Akan Name would have been based on your gender and birthday.</p>
+            <div class="card-title text-center">
+                <h2>Akan Name Generator</h2>
+            </div>
+            <div class="card-body text-justify">
+                <p>Akan Names are derived from Ghanaian culture. Frequently in Ghana, children are given their first name as a "day-name" which corresponds to the day in the week they were born.</p>
+                <p>This application enables you to find out the day of the week you were born and further suggests to you what your Akan Name would have been based on your gender and birthday.</p>
+            </div>
         </div>
 
         <div class="col-md-6">
+            <h2>Find out your Akan Name - fill in the following:</h2>
+            <!-- <form> -->
+            <!-- <input type="radio" name="gender" value="female">Female<br> -->
+            <!-- <input type="radio" name="gender" value="male"> Male<br> -->
+            <!-- </form> -->
+
+            <form name="dataCollection" action="">
+                <label for="gender">Gender</label>
+                <div class="selectbox">
+                    <select id="gender">
+                      <!-- validation -->
+                      <option value="female">Female</option>
+                      <option value="male">Male</option>
+                    </select>
+                </div>
+                <label for="Date">Date of Birth</label><br>
+                <input id="date" type="Date" placeholder="D.O.B" required><br>
+                <input type="submit" value="Submit" id="btnSubmit">
+            </form>
             <!-- insert form here...collect data i.e. gender and birthdate details -->
         </div>
     </div>
