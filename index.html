@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <script src="js/script.js"></script>
+
 
     <div class="container-fluid jumbotron text-center">
         <p>Find Out Your Akan Name!</p>
@@ -36,7 +36,8 @@
             <!-- </form> -->
 
             <!-- <form name="dataCollection" onsubmit="return calculateAkanName()"> -->
-            <form onsubmit="generateAkanName()">
+            <!-- <form onclick="return generateAkanName"> -->
+            <form id="akanForm">
                 <label for="gender">Gender</label>
                 <div class="selectbox">
                     <select id="gender" required>
@@ -48,12 +49,14 @@
                     </select>
                 </div>
                 <label for="Date">Date of Birth</label><br>
-                <input id="date" type="Date" placeholder="D.O.B" required><br>
-                <input type="submit" value="Submit" id="btnSubmit">
+                <input id="date" type="Date" required><br>
+                <input type="submit" value="Submit">
             </form>
         </div>
     </div>
     <div>
+        <!-- reveal answer here and  -->
+        <p id="reveal-result"></p>
         <!-- insert Akan Names here ... 7 rows , three columns -->
     </div>
 
@@ -61,7 +64,7 @@
         Developed by RK Nyra &copy; 2019
     </div>
     </div>
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>
