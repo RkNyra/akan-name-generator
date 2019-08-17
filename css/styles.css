@@ -62,6 +62,17 @@ input[type=submit] {
     font-size: 20px;
 }
 
+#reveal-result {
+    background-color: rgb(110, 110, 247);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 33px;
+    font-weight: 700;
+    color: black;
+    font-style: italic;
+    height: 70px;
+    text-align: center;
+}
+
 .footer {
     height: 50px;
     width: 100%;
