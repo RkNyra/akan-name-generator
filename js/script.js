@@ -84,4 +84,5 @@ akanForm.addEventListener("submit", (e) => {
     }
 
     let result = document.getElementById("reveal-result").innerHTML = "You were born on a " + bornDay + " so your akan name is " + akanName + "!"
+    document.getElementById("akanForm").reset();
 });
